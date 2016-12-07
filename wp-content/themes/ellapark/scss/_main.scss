@@ -1,0 +1,28 @@
+.home-section1 {
+	position: relative;
+	height: 50vh;
+	padding: $defaultPadding;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+	& > .container {
+		@include vertical-align;
+	}
+}
+
+
+.section-main {
+	position: relative;
+	min-height: 70vh;
+	padding: $defaultPadding;
+}
+
+.section2,
+.section3 {
+	position: relative;
+	padding: $defaultPadding;
+}
+
+.section3 .fa {
+	color: $defaultColor;
+}

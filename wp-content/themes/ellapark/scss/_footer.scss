@@ -1,0 +1,17 @@
+/*
+Footer
+*/
+
+footer {
+	padding: $defaultPadding;
+	background: $defaultColor;
+	color: #ffffff;
+
+	a {
+		color: #ffffff;
+
+		&:hover {
+			color: #000000;
+		}
+	}
+}

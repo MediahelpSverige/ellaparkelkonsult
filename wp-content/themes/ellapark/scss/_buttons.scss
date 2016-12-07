@@ -1,0 +1,19 @@
+.btn {
+	margin: 20px 0 0 0;
+	padding: 10px 20px;
+	font-size: 18px;
+	border-radius: 0;
+}
+
+.btn-primary {
+	background: #00b050;
+	border: 0;
+	color: #ffffff !important;
+	-webkit-transition: background .25s ease-in-out;
+    transition: background .25s ease-in-out;
+
+    &:hover {
+		background: #009443;
+		transition-timing-function: ease-in-out;
+	}
+}

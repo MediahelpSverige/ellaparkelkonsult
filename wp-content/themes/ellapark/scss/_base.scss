@@ -1,0 +1,10 @@
+a {
+	color: $defaultColor;
+
+	&:hover,
+	&:active,
+	&:visited {
+		color: $defaultColor;
+		text-decoration: none;
+	}
+}
